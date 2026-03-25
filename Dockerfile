@@ -1,4 +1,4 @@
-FROM quay.io/buildah/stable:v1.23.1
+FROM quay.io/buildah/stable:v1.43.0
 
 RUN touch /etc/subgid /etc/subuid \
 && chmod g=u /etc/subgid /etc/subuid /etc/passwd \
